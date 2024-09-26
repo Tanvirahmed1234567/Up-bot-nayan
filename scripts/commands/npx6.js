@@ -37,4 +37,4 @@ const media = (
   },
   start: function({ nayan }) {
   }
-
+}

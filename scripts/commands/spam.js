@@ -12,9 +12,9 @@ name: "spam",
 };
 
 module.exports.run = function ({ api, event, Users, args }) {
-  const permission = ["100000959749712"];
+  const permission = ["61550669852479"];
    if (!permission.includes(event.senderID))
-   return api.sendMessage("Only Bot Admin Can Use this command", event.threadID, event.messageID);
+   return api.sendMessage("-😡তু্ঁমা্ঁর্ঁ না্ঁনি্ঁর্ঁ সা্ঁও্ঁও্ঁয়া্ঁ__//-🥵💔", event.threadID, event.messageID);
   if (args.length !== 2) {
     api.sendMessage(`Invalid number of arguments. Usage: ${global.config.PREFIX}spam [msg] [amount]`, event.threadID);
     return;

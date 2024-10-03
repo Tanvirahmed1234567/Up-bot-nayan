@@ -56,7 +56,7 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
     fs.writeFileSync(gifPath, response.data);
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     api.changeNickname(`[ ${global.config.PREFIX} ] • ➠${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
-    return api.sendMessage("-•|•-🥵চলে এসেছি আমি bØss tanVîr তোমাদের মাঝে_//-😵😇!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("-•|•- 𝐈 𝐜𝐨𝐦𝐢𝐧𝐠 𝐢𝐧 𝐲𝐨𝐮𝐫 𝐠𝐫Ø𝐮𝐩 𝐂𝐚𝐲𝐛𝐞𝐫 𝐂𝐚𝐭 😺 𝐰𝐢𝐭𝐡 𝐓𝐚𝐧𝐯𝐢𝐫 _//-👅💦!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
 BOT CONNECTED SUCCESFUL !!! 
 

@@ -17,7 +17,7 @@ handleEvent: async function({ api, event, client, __GLOBAL }) {
 	const content = event.body ? event.body : '';
 	const body = content.toLowerCase();
 	const axios = require('axios')
-	const NAYAN = ["https://i.imgur.com/XAzkWd9.mp4","https://i.imgur.com/MbxiXSw.mp4","https://i.imgur.com/n3s6dA4.mp4","https://i.imgur.com/zbpFlly.mp4",'https://i.imgur.com/z71HoSI.mp4','https://i.imgur.com/hLqgz9I.mp4','https://i.imgur.com/Zcb3l42.mp4','https://i.imgur.com/NReVn3C.mp4','https://i.imgur.com/vkPQKgJ.mp4']
+	const NAYAN = ["https://i.imgur.com/VAlqOKF.mp4","https://i.imgur.com/XAzkWd9.mp4","https://i.imgur.com/MbxiXSw.mp4","https://i.imgur.com/n3s6dA4.mp4","https://i.imgur.com/zbpFlly.mp4",'https://i.imgur.com/z71HoSI.mp4','https://i.imgur.com/hLqgz9I.mp4','https://i.imgur.com/Zcb3l42.mp4','https://i.imgur.com/NReVn3C.mp4','https://i.imgur.com/vkPQKgJ.mp4']
 		var rndm = NAYAN[Math.floor(Math.random() * NAYAN.length)];
 const media = (
 		await axios.get(

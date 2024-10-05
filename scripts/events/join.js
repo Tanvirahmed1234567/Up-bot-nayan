@@ -58,23 +58,23 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
     api.changeNickname(`[ ${global.config.PREFIX} ] • ➠${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
     return api.sendMessage("-•|•- 𝐈 𝐜𝐨𝐦𝐢𝐧𝐠 𝐢𝐧 𝐲𝐨𝐮𝐫 𝐠𝐫Ø𝐮𝐩 𝐂𝐚𝐲𝐛𝐞𝐫 𝐂𝐚𝐭 😺 𝐰𝐢𝐭𝐡 𝐓𝐚𝐧𝐯𝐢𝐫 _//-👅💦!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
-BOT CONNECTED SUCCESFUL !!! 
+-😵𝗕𝗢𝗧 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗 𝗦𝗨𝗖𝗖𝗘𝗦𝗙𝗨𝗟_//-😵 !!! 
 
-APPROVAL ALLOW IN THIS GROUP!!!
-<------------------------------>\n\nTO VIEW ANY COMMAND Use👉${global.config.PREFIX}help\nSee command👉 ${global.config.PREFIX}command
+-🫦𝗔𝗣𝗣𝗥𝗢𝗩𝗔𝗟 𝗔𝗟𝗟𝗢𝗪 𝗜𝗡 𝗧𝗛𝗜𝗦 𝗚𝗥𝗢𝗨𝗣_//-🫦!!!
+<------------------------------>\n\n-🫦TO 𝗩𝗜𝗘𝗪 𝗔𝗡𝗬 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗨𝘀𝗲_//-👉${global.config.PREFIX}help\nSee command👉 ${global.config.PREFIX}command
 \n\EXAMPLE:👇\n${global.config.PREFIX}admin (information)\n${global.config.PREFIX}islam (video)\n${global.config.PREFIX}tik (link)\n${global.config.PREFIX}fbvideo (link)
 <------------------------------>
-AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
+-🫦𝗔𝗡𝗗 𝗙𝗢𝗥 𝗔𝗡𝗬 𝗖𝗢𝗠𝗣𝗟𝗔𝗜𝗡𝗧𝗦 𝗢𝗥 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗕𝗢𝗧 𝗢𝗣𝗘𝗥𝗔𝗧𝗢𝗥_//-🫦 
 
-DEVELOPER :Mohammad Nayan 
+-🫦𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 : 𝗧𝗮𝗻𝗩𝗶𝗿 𝗔𝗵𝗺𝗲𝗱_//-🫣
 
-🟣Facebook Account Link: 
+-🫦𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸 𝗔𝗰𝗰𝗼𝘂𝗻𝘁 𝗟𝗶𝗻𝗸 :- 
 
-https://www.facebook.com/www.xnxx.com169
+𝗵𝘁𝘁𝗽𝘀://𝘄𝘄𝘄.𝗳𝗮𝗰𝗲𝗯𝗼𝗼𝗸.𝗰𝗼𝗺/𝘄𝘄𝘄.T𝘅𝗻𝘅𝘅.𝗰𝗼𝗺61550669852479_//-🥵
 
-🔵WHATSAPP NUMBER: wa.me/+8801323850908
+-🫦𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽 𝗡𝘂𝗺𝗯𝗲𝗿 :- 𝘄𝗮.𝗺𝗲/+8801323850908_//-😉
 
-🟢SUPPORT EMAIL: www.mdmnnm2004@gmail.com`, attachment: fs.createReadStream(gifPath)}, threadID));
+-🫦𝗘𝗺𝗮𝗶𝗹 :-𝘁𝗮𝗻𝘃𝗶𝗿𝘅𝘅𝘅𝘅𝗴𝗺𝗮𝗶𝗹.𝗰𝗼𝗺_//-🥵`, attachment: fs.createReadStream(gifPath)}, threadID));
   }})
 .catch(error => {
     console.error(error);

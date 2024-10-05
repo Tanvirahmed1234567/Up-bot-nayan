@@ -17,7 +17,7 @@ handleEvent: async function({ api, event, client, __GLOBAL }) {
   const content = event.body ? event.body : '';
   const body = content.toLowerCase();
   const axios = require('axios')
-  const NAYAN = ['https://i.imgur.com/SNhYQi2.mp4','https://i.imgur.com/wkz6F6D.mp4','https://i.imgur.com/oLTkb9h.mp4','https://i.imgur.com/WLs3gp6.mp4','https://i.imgur.com/CPFD7Gm.mp4']
+  const NAYAN = ["https://i.imgur.com/64RETlb.mp4","https://i.imgur.com/wbpQrKu.mp4","https://i.imgur.com/DL7kpJc.mp4","https://i.imgur.com/FNxOc4F.mp4","https://i.imgur.com/nJo4WH1.mp4","https://i.imgur.com/3oh3Yiq.mp4","https://i.imgur.com/G2UfW7m.mp4",'https://i.imgur.com/SNhYQi2.mp4','https://i.imgur.com/wkz6F6D.mp4','https://i.imgur.com/oLTkb9h.mp4','https://i.imgur.com/WLs3gp6.mp4','https://i.imgur.com/CPFD7Gm.mp4']
     var rndm = NAYAN[Math.floor(Math.random() * NAYAN.length)];
 const media = (
     await axios.get(
@@ -28,7 +28,7 @@ const media = (
 
   if (body.indexOf("🖤")==0 || body.indexOf("🤍")==0 || body.indexOf("❤️")==0 || body.indexOf("💛")==0 || body.indexOf("💚")==0 || body.indexOf("🩵")==0 || body.indexOf("💙")==0 || body.indexOf("💖")==0 || body.indexOf("💘")==0 || body.indexOf("💝")==0) {
     var msg = {
-        body: "|•সঠিক মানুষের চোখে তুমি সব সময় সুন্দর!_//-🤍🌸",
+        body: "|•সঠিক মানুষের চোখে তুমি সব সময় সুন্দর!_//-🤍🌸","-•|•ভেতর থেকে সুন্দর হন, নিখুঁত না হলেও চলবে !!! _//-🩷😊","-•|•প্রেম একটু ব্যাকডেটেড হওয়াই ভালো আধুনিকতায় শুধুইই বিচ্ছেদ!_//-🖤✨",
         attachment: media
       }
       api.sendMessage( msg, threadID, messageID);

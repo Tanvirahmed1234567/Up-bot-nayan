@@ -1,7 +1,7 @@
 module.exports.config = {
  name: "help",
  version: "2.0.0",
- permssion: 0,
+ permssion: 2,
  credits: "Islamick Cyber Chat",
   prefix:true,
  description: "commands list",
@@ -16,7 +16,7 @@ module.exports.config = {
 
 module.exports.languages = {
  "en": {
-  "moduleInfo": "•—»✨[ %1 ]✨«—•\n\nUsage: %3\nCategory: %4\nWaiting time: %5 seconds(s)\nPermission: %6\nDescription: %2\n\nModule coded by %7",
+  "moduleInfo": "•—»😻[ %1 ]😻«—•\n\nUsage: %3\nCategory: %4\nWaiting time: %5 seconds(s)\nPermission: %6\nDescription: %2\n\nModule coded by %7",
   "helpList": '[ There are %1 commands on this bot, Use: "%2help nameCommand" to know how to use! ]',
   "user": "User",
         "adminGroup": "Admin group",

@@ -30,7 +30,7 @@ const data = await alldown(content);
     fs.writeFileSync(__dirname + "/cache/auto.mp4", Buffer.from(video, "utf-8"))
 
         return api.sendMessage({
-            body: `《TITLE》: ${title}`,
+            body: `-🫦𝗕Ø𝗦𝗦 𝗧𝗔𝗡𝗩𝗜𝗥_//-😵😴《-🫦𝗠𝗜𝗗𝗘𝗔_//-😍》: ${title}`,
             attachment: fs.createReadStream(__dirname + "/cache/auto.mp4")
 
         }, event.threadID, event.messageID);

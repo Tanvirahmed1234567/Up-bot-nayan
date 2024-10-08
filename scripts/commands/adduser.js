@@ -22,7 +22,7 @@ if(link.indexOf(".com/")!==-1) {
     if (participantIDs.includes(uidUser)) return api.sendMessage(`The member has to be in the group`, threadID, messageID);
     if (err) return api.sendMessage(` Cannot add members to the group`, threadID, messageID);
     else if (approvalMode && !adminIDs.some(item => item.id == api.getCurrentUserID())) return api.sendMessage(`Add successful users to the browser list`, threadID, messageID);
-    else return api.sendMessage(`Add members to the bar group`, threadID, messageID);
+    else return api.sendMessage(`──⃜⃜͢͢🍒͟͟͞͞๛⃝🫣😁এ্ঁড্ঁমি্ঁন্ঁ কা্ঁকু্ঁ মো্ঁরে্ঁ চি্ঁন্ঁছো্ঁ_//-😫😹`, threadID, messageID);
     });
     }
   else { 

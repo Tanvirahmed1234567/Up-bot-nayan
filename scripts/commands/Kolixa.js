@@ -48,7 +48,7 @@ module.exports = {
     try {
       const msg = args.join(" ");
       if (!msg) {
-        var tl = ["Hum Baby Bolo_//-😽","hea Kolixa amr bølø_//-😻"]
+        var tl = ["-𝗛𝘂𝗺 𝗕𝗮𝗯𝘆 𝗕𝗼𝗹𝗼_//-😽","-𝗵𝗲𝗮 𝗞𝗼𝗹𝗶𝘅𝗮 𝗮𝗺𝗿 𝗯ø𝗹ø_//-😻"]
         var name = await Users.getNameUser(events.senderID);
         var rand = tl[Math.floor(Math.random() * tl.length)]
         return nayan.sendMessage({ 

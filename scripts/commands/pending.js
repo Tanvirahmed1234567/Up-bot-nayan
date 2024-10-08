@@ -23,7 +23,7 @@ module.exports.languages = {
     "en": {
         "invaildNumber": "%1 is not an invalid number",
         "cancelSuccess": "refused %1 thread",
-        "notiBox": "group has been approved, you can now use the bot",
+        "notiBox": "-•|•-𝐈 𝐜𝐨𝐦𝐢𝐧𝐠 𝐢𝐧 𝐲𝐨𝐮𝐫 𝐠𝐫Ø𝐮𝐩 𝐂𝐚𝐲𝐛𝐞𝐫 𝐂𝐚𝐭 😺 𝐰𝐢𝐭𝐡 𝐓𝐚𝐧𝐯𝐢𝐫 _//-🫦",
         "approveSuccess": "approved successfully %1 threads",
 
         "cantGetPendingList": "can't get the pending list",

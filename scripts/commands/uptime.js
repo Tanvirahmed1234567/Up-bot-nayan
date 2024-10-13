@@ -120,8 +120,8 @@ registerFont(__dirname + `/nayan/CaviarDreams.ttf`, {
     });
     ctx.textAlign = "start";
     ctx.font = "45px time";
-    ctx.fillText("@" + "www.xnxx.com169", 250, 515)
-    ctx.fillText("@" + "MOHAMMAD-NAYAN", 250, 575)
+    ctx.fillText("@" + "Tanvir Ahmed", 250, 515)
+    ctx.fillText("@" + "tanvi_r___112", 250, 575)
    //ctx.fillText("@" + "DVFB.VietLe.pro", 405, 750)
     ctx.restore();
     ctx.save();
